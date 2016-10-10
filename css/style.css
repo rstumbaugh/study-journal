@@ -1,0 +1,81 @@
+html,body {
+	height: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #ecf0f1;
+	font-family: 'Lato', sans-serif;
+}
+
+.light {
+	font-weight: 100;
+}
+
+.hero {
+	text-align: center;
+	line-height: 75px;
+	padding: 25px;
+}
+
+h1 {
+	font-family: inherit;
+	font-size: 75px;
+}
+
+hr.small {
+	width: 30%;
+	border-color: black !important;
+}
+
+.calendar {
+	background-color: white;
+	border: 1px solid black;
+	padding: 0;
+	margin-bottom: 5%;
+}
+
+.cal-header {
+	font-family: inherit;
+	font-weight: 300;
+	padding-left: 5px;
+}
+
+.week {
+	padding: 0;
+}
+.cal-day {
+	width: 14.2857%;
+	height: 180px;
+	border: 1px solid black;
+	border-width: 1px 1px 0 1px;
+	display: inline-block;
+	float: left;
+	padding: 5px;
+}
+
+.cal-day .event:hover {
+	cursor: pointer;
+}
+
+
+.cal-day.inactive {
+	background-color: #ecf0f1;
+	color: gray !important;
+}
+
+.day-left {
+	border-width: 1px 1px 0 0;
+}
+
+.day-inner {
+	border-width: 1px 1px 0 0;
+}
+
+.day-right {
+	border-width: 1px 0 0 0;
+}
+
+
+
+
+
+
