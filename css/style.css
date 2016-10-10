@@ -24,24 +24,6 @@ html,body {
 	padding: 15px 25px 25px 25px;
 }
 
-.hero .intro {
-	background-color: rgba(44, 62, 80,0.4);
-	padding-left: 10px;
-	padding-right: 10px;
-
-	-webkit-transition: background-color .2s ease-in-out;
-    -moz-transition: background-color .2s ease-in-out;
-    transition: background-color .2s ease-in-out;
-}
-
-.hero .intro:hover {
-	cursor: pointer;
-	background-color: rgba(44, 62, 80, 0.6);
-	-webkit-transition: background-color .2s ease-in-out;
-    -moz-transition: background-color .2s ease-in-out;
-    transition: background-color .2s ease-in-out;
-}
-
 h1 {
 	font-family: inherit;
 	font-size: 75px;
@@ -67,12 +49,13 @@ hr.small {
 
 .week {
 	padding: 0;
+	position: relative;
 }
 .cal-day {
 	width: 14.2857%;
 	height: 160px;
 	border: 1px solid black;
-	border-width: 1px 1px 0 1px;
+
 	display: inline-block;
 	float: left;
 	padding: 5px;
@@ -84,7 +67,7 @@ hr.small {
     text-indent: -.7em;
     list-style: none;
 
-    opacity: 0.6;
+    opacity: 1.0;
 
     -webkit-transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
@@ -92,7 +75,7 @@ hr.small {
 }
 
 .event:hover {
-	opacity: 1.0;
+	opacity: 0.6;
 
 	-webkit-transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
@@ -136,19 +119,75 @@ hr.small {
 .cal-day.inactive {
 	background-color: #ecf0f1;
 	color: gray !important;
+	border-width: 1px 0 0 0;
+
 }
 
 .day-left {
-	border-width: 1px 1px 0 0;
+	border-width: 1px 0 0 0;
 }
 
 .day-inner {
-	border-width: 1px 1px 0 0;
+	border-width: 1px 0 0 1px;
 }
 
 .day-right {
-	border-width: 1px 0 0 0;
+	border-width: 1px 0 0 1px;
 }
+
+.cal-intro,
+.cal-active-days,
+.cal-conclusion {
+	position: relative;
+}
+
+.intro,
+.conclusion {
+	z-index: 1;
+	position: absolute;
+	width: 40%;
+	height: 50px;
+	margin-left: 1.428%;
+	margin-top: 60px;
+
+	background-color: rgba(108, 122, 137,0.8);
+	opacity: 1.0;
+
+	padding-left: 10px;
+	padding-right: 10px;
+
+	line-height: 50px;
+	text-align: center;
+
+	font-size: 1.5em;
+
+	-webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.conclusion {
+	margin-left: 58.570%;
+	background-color: rgba(108, 122, 137, 0.8);
+}
+
+.intro:hover,
+.conclusion:hover {
+	cursor: pointer;
+
+	opacity: 0.8;
+	-webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+
+
+
+
+
+
+
 
 
 
