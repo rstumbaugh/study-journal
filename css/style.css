@@ -4,16 +4,42 @@ html,body {
 	margin: 0 auto;
 	background-color: #ecf0f1;
 	font-family: 'Lato', sans-serif;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../img/bg.png);
 }
 
 .light {
 	font-weight: 100;
 }
 
+
 .hero {
 	text-align: center;
 	line-height: 75px;
-	padding: 25px;
+	padding: 15px 25px 25px 25px;
+}
+
+.hero .intro {
+	background-color: rgba(44, 62, 80,0.4);
+	padding-left: 10px;
+	padding-right: 10px;
+
+	-webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
+}
+
+.hero .intro:hover {
+	cursor: pointer;
+	background-color: rgba(44, 62, 80, 0.6);
+	-webkit-transition: background-color .2s ease-in-out;
+    -moz-transition: background-color .2s ease-in-out;
+    transition: background-color .2s ease-in-out;
 }
 
 h1 {
@@ -30,7 +56,7 @@ hr.small {
 	background-color: white;
 	border: 1px solid black;
 	padding: 0;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
 }
 
 .cal-header {
@@ -44,12 +70,62 @@ hr.small {
 }
 .cal-day {
 	width: 14.2857%;
-	height: 180px;
+	height: 160px;
 	border: 1px solid black;
 	border-width: 1px 1px 0 1px;
 	display: inline-block;
 	float: left;
 	padding: 5px;
+}
+
+.event {
+    padding-left: 1em; 
+    margin-bottom: 8px;
+    text-indent: -.7em;
+    list-style: none;
+
+    opacity: 0.6;
+
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+.event:hover {
+	opacity: 1.0;
+
+	-webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out;
+}
+
+
+.event.red{
+	background-color: rgba(192, 57, 43, 0.7);
+}
+
+.event.blue {
+	background-color: rgba(41, 128, 185,0.7);
+}
+
+.event.green {
+	background-color: rgba(39, 174, 96,0.7);
+}
+
+.event.teal {
+	background-color: rgba(26, 188, 156,0.7)
+}
+
+.event.purple {
+	background-color: rgba(155, 89, 182,0.7);
+}
+
+.event.orange {
+	background-color: rgba(230, 126, 34,0.7);
+}
+
+.event.yellow {
+	background-color: rgba(241, 196, 15,0.7)
 }
 
 .cal-day .event:hover {
