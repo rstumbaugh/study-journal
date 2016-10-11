@@ -34,6 +34,12 @@ hr.small {
 	border-color: black !important;
 }
 
+hr.large {
+	width: 105%;
+	margin-left: -5px;
+	border-color: black !important;
+}
+
 .calendar {
 	background-color: white;
 	border: 1px solid black;
@@ -44,7 +50,7 @@ hr.small {
 .cal-header {
 	font-family: inherit;
 	font-weight: 300;
-	padding-left: 5px;
+	padding-left: 15px;
 }
 
 .week {
@@ -75,7 +81,7 @@ hr.small {
 }
 
 .event:hover {
-	opacity: 0.6;
+	opacity: 0.8;
 
 	-webkit-transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
@@ -135,12 +141,6 @@ hr.small {
 	border-width: 1px 0 0 1px;
 }
 
-.cal-intro,
-.cal-active-days,
-.cal-conclusion {
-	position: relative;
-}
-
 .intro,
 .conclusion {
 	z-index: 1;
@@ -167,7 +167,7 @@ hr.small {
 }
 
 .conclusion {
-	margin-left: 58.570%;
+	right: 1.428%;
 	background-color: rgba(108, 122, 137, 0.8);
 }
 
