@@ -4,8 +4,8 @@ String.prototype.capitalizeFirstLetter = function() {
 
 $(document).ready( function() {
 	var section = getQueryVariable("section");
-	alert("Section: "+section);
-	
+	section = section.capitalizeFirstLetter();
+
 	$(".hero h1").text(section.capitalizeFirstLetter());
 
 	$row = $("<div/>", {"class": "row"});
