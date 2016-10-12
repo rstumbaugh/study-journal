@@ -2,11 +2,28 @@ String.prototype.capitalizeFirstLetter = function() {
     return this.charAt(0).toUpperCase() + this.slice(1);
 }
 
+
+
+
 $(document).ready( function() {
+
+	console.log($(window).width);
 	var section = getQueryVariable("section");
 	section = section.capitalizeFirstLetter();
 
-	$(".hero h1").text(section.capitalizeFirstLetter());
+	var title;
+
+	if (section === "Adidas") {
+		title = "adidas";
+	} else if (section === "Mel") {
+		title = "Mel Van Londen";
+	} else if (section === "Gary") {
+		title = "Gary Swart";
+	} else {
+		title = section;
+	}
+
+	$(".hero h1").text(title);
 
 	$row = $("<div/>", {"class": "row"});
 	$col = $("<div/>", {"class": "content col-md-10 col-md-offset-1"});

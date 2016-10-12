@@ -32,7 +32,6 @@ a:hover {
 }
 
 h1 {
-	font-family: inherit;
 	font-size: 75px;
 }
 
@@ -50,21 +49,28 @@ hr.large {
 
 .calendar {
 	background-color: white;
-	border: 1px solid black;
 	padding: 0;
 	margin-bottom: 2%;
 }
 
 .cal-header {
-	font-family: inherit;
 	font-weight: 300;
 	padding-left: 15px;
+	background-color: white;
+	border: 1px solid black;
+	border-width: 1px 1px 1px 1px;
 }
 
-.week {
+.week1,
+.week2 {
 	padding: 0;
 	position: relative;
 }
+
+.week1.cal-day {
+	border-top: 0 !important;
+}
+
 .cal-day {
 	width: 14.2857%;
 	height: 160px;
@@ -73,6 +79,31 @@ hr.large {
 	display: inline-block;
 	float: left;
 	padding: 5px;
+}
+
+.cal-day.inactive {
+	background-color: #ecf0f1;
+	color: gray !important;
+	border-width: 0 0 1px 0;
+
+}
+
+.inactive.day-left,
+.day-left {
+	border-width: 0 0 1px 1px !important;
+}
+
+.day-inner {
+	border-width: 0 0 1px 1px;
+}
+
+.day-right {
+	border-width: 0 1px 1px 1px;
+}
+
+
+.inactive.day-right {
+	border-width: 0 1px 1px 0;
 }
 
 .event {
@@ -126,24 +157,7 @@ hr.large {
 }
 
 
-.cal-day.inactive {
-	background-color: #ecf0f1;
-	color: gray !important;
-	border-width: 1px 0 0 0;
 
-}
-
-.day-left {
-	border-width: 1px 0 0 0;
-}
-
-.day-inner {
-	border-width: 1px 0 0 1px;
-}
-
-.day-right {
-	border-width: 1px 0 0 1px;
-}
 
 .intro,
 .conclusion {
@@ -154,7 +168,8 @@ hr.large {
 	margin-left: 1.428%;
 	margin-top: 60px;
 
-	background-color: rgba(108, 122, 137,0.8);
+	background-color: white;
+	border: 1px solid black;
 	opacity: 1.0;
 
 	padding-left: 10px;
@@ -172,7 +187,6 @@ hr.large {
 
 .conclusion {
 	right: 1.428%;
-	background-color: rgba(108, 122, 137, 0.8);
 }
 
 .intro:hover,
@@ -181,6 +195,16 @@ hr.large {
 	-webkit-transition: opacity .2s ease-in-out;
     -moz-transition: opacity .2s ease-in-out;
     transition: opacity .2s ease-in-out;
+}
+
+
+.small-cal-day {
+	height: 150px;
+	border: 1px solid black;
+	border-top: 0;
+	background-color: white;
+
+	padding: 5px;
 }
 
 /* Content page styles */
@@ -225,6 +249,34 @@ hr.large {
 }
 
 
+/* small devices */
+@media screen and (max-width: 992px) {
+	
+	.hero {
+		line-height: 52px;
+	}
+
+	.hero h1 {
+		font-size: 52px;
+	}
+
+	.cal-header h2 {
+		font-size: 24px;
+	}
+
+	.day-title {
+		font-size: 16px;
+	}
+
+	.event {
+		font-size: 12px;
+	}
+
+	.intro,
+	.conclusion {
+		font-size: 16px;
+	}
+}
 
 
 
