@@ -1,0 +1,27 @@
+﻿<h3>Summary</h3>
+Going into the trip, Google was definitely my most anticipated visit. Aside from their name as an absolute tech giant, I had heard a lot about their culture and was excited to see what it was truly like vs. how it was portrayed in movies, pop culture, etc. The first speaker we heard from was Dave Rensin. At the time, Dave was the Director of Global Cloud Customer Operations — in other words, he was the head of their Cloud division (as of this month, however, his LinkedIn indicates he is now the Director of Customer Reliability Engineering). Dave clearly was very experienced both in programming and general business savvy and was an incredibly intriguing and informative speaker. He spoke a lot about both professional success advice as well as Google’s culture and expectations there. After Dave had to leave, there was a Q&A session led by some Maryland alumni, which was also interesting and helpful as far as making the transition from college to the professional world. 
+
+
+<h3>Key Takeaways</h3>
+Of all of the speakers we had heard from so far, Dave was certainly the most informative and captivating. Other students were a bit put off as they felt he was a bit arrogant; I, however, interpreted his arrogance as confidence and the fact that he was 100% sure about what he was talking about. Dave started off his talk with his “Secrets to Professional Success”:
+<br/><br/>
+
+
+<ol>
+<li><b>Fail vertically</b> - failure should breed success; don’t fail at something that won’t make you better</li>
+<li><b>Do a thing someone thinks is valuable and be superlative at it</b></li>
+<li><b>Success is a product of hard work, not intelligence</b></li>
+</ol>
+While many of these ideas don’t exactly seem like profound gems of wisdom, they are undeniably accurate. The secret to professional success is to constantly improve. Whether it be soft skills or hard skills, there is always more work to be done. If you’re good at something but nobody thinks it’s valuable, what’s the point? Always keep track of what skills are in demand at right now and, more importantly, what will be in demand in the future.
+
+<br/><br/>
+
+Dave had a lot to say about failure. Failure is a funny thing. Many see failure as the opposite of success; if you don’t accomplish what you wanted to accomplish, you’ve failed, right? Dave Rensin would beg to differ: “Failure is not a failure unless its inaction or doing something you know is not going to work.” In my personal life, I can attest to the fact that failure is an inevitable part of programming. It is very very rare that something will work on the first try, so I’ve gotten quite used to failure at this point (it was definitely good to hear from someone else, however!). 
+
+<br/><br/>
+
+In terms of Google itself, both Dave and the alumni spoke a lot about the culture at the company. Dave’s main piece of advice was in your first year at Google, ignore the “shiny things” and excel at your job. He said there are many ways to get distracted with all of the opportunities the company has available, and your first year should be spent being superlative at what you do. I feel this applies to most areas in life. Before getting caught up in the “shiny things” (whatever they may be), you must focus on the task at hand first. In addition, the alumni spoke very highly of Google’s culture and the type of people they work with. Surprisingly, Google’s “20% Rule” many have heard so much about is not as true as it seems. Most employees said it’s less 80% work, 20% side projects and more accurately 100% work, and an optional 20% side projects. I thought this was interesting considering how much exposure the idea has gotten in the business world. 
+
+<br/><br/>
+
+I could go on and on about what I learned from this visit. Dave Rensin was an incredible person to hear from and had some great advice in terms of career success that I could certainly keep talking about. Google is a very unique company with high aspirations, as proven by In the Plex, a book about how Google secretly shapes our lives. Google’s main goal is to “organize all the information in the world”, and with the incredible reach it has today, I don’t see this being totally unfeasible. The trip to Google was an invaluable experience and definitely one of the highlights of the trip for me looking back on it.

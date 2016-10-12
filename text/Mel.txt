@@ -1,0 +1,15 @@
+﻿<h3>Summary</h3>
+After a day of sightseeing around San Francisco, we met up back at the hotel to hear from Mel Van Londen, Maryland alumni and former employee at IDEO. Mel is now running a startup called Occamz Razor which help accelerate the scientific research community. Mel detailed his professional experience and shared some lessons he’s learned along the way. He started working in New York in Finance until he was recruited by IDEO in New York. He then transferred to IDEO San Francisco, which is what brought him out to the west coast. In April, he then quit IDEO to start his new company, Occamz Razor. After talking about his professional experience, Mel went onto talk about some general professional advice, ranging from personal and professional improvement to how to be a more adaptive and open-minded person.
+
+
+<h3>Key Takeaways</h3>
+Many of the ideas Mel talked about were advice I had heard from other companies and sources, so it is clear that it is sound advice that should be followed. One of his main points was simple: stay curious and keep learning. This was a lesson I had learned on my own in high school with my independent programming projects. I learned much more on my own outside of the classroom than I did in my high school coding classes. My own curiosity and motivation was enough to learn more than I did in a traditional classroom setting. Mel also discussed <i>really</i> thinking about a problem before attacking it, which is a skill I have been trying to improve recently and actually is a part of my improvement plan in my IOCSR report. 
+
+<br/><br/>
+
+
+At IDEO, Mel said the company really looks for what they call a “T-Shaped” skillset. That is, having a broad range of knowledge across many areas, but also having an area of specification that you know in detail. Although IDEO is mainly a design company, the field of computer science is not exempt from this rule as well. When I Googled Mel’s name, I came across his Github page. Github is sort of a portfolio site for software developers and is a place to store code repositories and allows for version control integration. When looking through his Github profile (which can be found <a href=”https://github.com/mvanlonden” target=”_blank”>here</a>), I noticed a wide range of projects from Coding Guides to a Twitter bot to a personal website. However, most of his projects were written in JavaScript with an emphasis on the front-end (user interface). His T-Shaped skillset is apparent from just a snapshot of some of his work. This is definitely something I need to improve upon as I build my skillset in the programming world.
+
+<br/><br/>
+
+Mel’s main idea was simple: <b>keep learning</b>. I’ve heard it before and I’m sure I’ll hear it again as this is a rule that will certainly not go away, especially in computer science.
