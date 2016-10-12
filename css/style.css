@@ -109,8 +109,6 @@ hr.large {
 .event {
     padding-left: 1em; 
     margin-bottom: 8px;
-    text-indent: -.7em;
-    list-style: none;
 
     opacity: 1.0;
 
@@ -201,8 +199,20 @@ hr.large {
 	margin-bottom: 10%;
 }
 
+.mobile-intro,
+.mobile-conclusion {
+	border: 1px solid black;
+	text-align: center;
+	background-color: white;
+
+	height: 50px;
+	line-height: 50px;
+
+	margin-top: 15px;
+}
+
 .small-cal-day {
-	height: 150px;
+	min-height: 150px;
 	margin-top: 15px;
 	background-color: white;
 
@@ -252,6 +262,12 @@ hr.large {
     transition: opacity .2s ease-in-out;
 }
 
+/* medium devices */
+@media screen and (max-width: 1200px) {
+	.event {
+		font-size: 12px;
+	}
+}
 
 /* small devices */
 @media screen and (max-width: 992px) {
@@ -273,12 +289,10 @@ hr.large {
 		font-size: 24px;
 	}
 
+	.mobile-intro,
+	.mobile-conclusion,
 	.day-title {
 		font-size: 16px;
-	}
-
-	.event {
-		font-size: 12px;
 	}
 
 	.intro,
@@ -287,6 +301,13 @@ hr.large {
 	}
 }
 
+/* xs devices (single-col layout) */
+@media screen and (max-width: 767px) {
+	.event {
+		height: 30px;
+		line-height: 30px;
+	}
+}
 
 
 

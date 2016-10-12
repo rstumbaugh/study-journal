@@ -19,6 +19,10 @@ $(document).ready( function() {
 		title = "Mel Van Londen";
 	} else if (section === "Gary") {
 		title = "Gary Swart";
+	} else if (section === "Marty") {
+		title = "Marty Ringlein";
+	} else if (section === "Cirque") {
+		title = "Cirque du Soleil";
 	} else {
 		title = section;
 	}
@@ -26,12 +30,12 @@ $(document).ready( function() {
 	$(".hero h1").text(title);
 
 	$row = $("<div/>", {"class": "row"});
-	$col = $("<div/>", {"class": "content col-md-10 col-md-offset-1"});
+	$col = $("<div/>", {"class": "content col-xs-10 col-xs-offset-1"});
 	$text = $("<div/>");
 
 	$text.load("text/"+section+".txt");
 
-	$button = $("<a/>", { "href": "index.html", "class": "home-btn col-md-2 col-md-offset-5"});
+	$button = $("<a/>", { "href": "index.html", "class": "home-btn col-xs-2 col-xs-offset-5"});
 	$button.text("Back to home");
 
 	$text.appendTo( $col );
