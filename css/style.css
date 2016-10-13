@@ -13,11 +13,19 @@ html,body {
 	background-image: url(../img/bg.png);
 }
 
+img {
+	margin: 10px;
+}
 
 a,
 a:hover {
 	text-decoration: none;
 	color: black;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
 }
 
 .light {
@@ -38,6 +46,8 @@ h1 {
 hr.small {
 	width: 30%;
 	border-color: black !important;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 hr.large {
